@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="ScreenShot">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+	<FRAME item="ScreenShot">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>500</W>
+			<H>295</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>Screen Shots</TEXT>
+	</FRAME>
+	<LABEL item="Title" parent="ScreenShot">
+	<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>6</X>
+			<Y>0</Y>
+			<W>200</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT>Screen Shots</TEXT>
+	</LABEL>
+	<LABEL item="Label" parent="ScreenShot">
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>16</X>
+			<Y>33</Y>
+			<W>400</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT>../My Documents/Extra GunZ/Screenshots</TEXT> 
+	</LABEL>
+	<LISTBOX item="ScreenShot_List" parent="ScreenShot">
+		<BOUNDS>
+			<X>16</X>
+			<Y>56</Y>
+			<W>466</W>
+			<H>150</H>
+		</BOUNDS>
+		<ITEMHEIGHT>16</ITEMHEIGHT>
+	</LISTBOX>
+	<LABEL item="Label" parent="ScreenShot">
+		<FONT>FONTa10</FONT>
+		<TEXTCOLOR>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>16</X>
+			<Y>200</Y>
+			<W>480</W>
+			<H>50</H>
+		</BOUNDS>
+		<TEXT>Basic screen shot viewer, more functions will be added and better optimization.</TEXT>
+		<EDITABLE>false</EDITABLE>
+	</LABEL>
+	<BUTTON item="ViewScreenShot" parent="ScreenShot">
+		<BOUNDS>
+			<X>5</X>
+			<Y>258</Y>
+			<W>70</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>View</TEXT>
+	</BUTTON>	
+	<FRAME item="ScreenShotPictureFrame" parent="ScreenShotPictureFrame">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>500</W>
+			<H>520</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+	<BUTTON item="ExitScreenShotPicture" parent="ScreenShotPictureFrame">
+		<BOUNDS>
+			<X>475</X>
+			<Y>20</Y>
+			<W>25</W>
+			<H>25</H>
+		</BOUNDS>
+		<TEXT>X</TEXT>
+	</BUTTON>
+	<BUTTON item="NextScreenShotPicture" parent="ScreenShotPictureFrame">
+		<BOUNDS>
+			<X>445</X>
+			<Y>20</Y>
+			<W>25</W>
+			<H>25</H>
+		</BOUNDS>
+		<TEXT>></TEXT>
+	</BUTTON>	
+	<BUTTON item="PrevScreenShotPicture" parent="ScreenShotPictureFrame">
+		<BOUNDS>
+			<X>415</X>
+			<Y>20</Y>
+			<W>25</W>
+			<H>25</H>
+		</BOUNDS>
+	</BUTTON>		
+	<PICTURE item="ScreenShotPicture" parent="ScreenShotPictureFrame">
+		<BOUNDS>
+			<X>0</X>
+			<Y>46</Y>
+			<W>500</W>
+			<H>468</H>
+		</BOUNDS>
+		<STRETCH/>
+	</PICTURE>
+	<BUTTON item="ExitScreenShot" parent="ScreenShot">
+		<BOUNDS>
+			<X>425</X>
+			<Y>258</Y>
+			<W>70</W>
+			<H>32</H>
+		</BOUNDS>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+		<TEXT>Exit</TEXT>
+	</BUTTON>
+</XML>

@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="Login">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+<!--
+   Login 윈도우   
+   Last Update : 29.OCT.2004
+   Editor      : Lim Dong Hwan
+-->
+
+<!-- 프레임 생성 : Login -->
+	<FRAME item="Login">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+	
+	<PICTURE item="LoginFrame" parent="Login">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>430</W>
+			<H>246</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<STRETCH/>
+		<BITMAP>LoginPanel.png</BITMAP>
+	</PICTURE>
+	
+
+
+
+<!-- LABEL : 연결중 -->
+	<LABEL item="Login_ConnectingMsg" parent="Login">
+		<FONT>FONTb11b</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>200</X>
+			<Y>450</Y>
+			<W>400</W>
+			<H>25</H>
+		</BOUNDS>
+		<STRETCH/>
+		<VISIBLE>FALSE</VISIBLE>
+		<TEXT></TEXT>
+	</LABEL>
+	
+	<!-- SERVERVIEW : 서버 선택 -->
+	<SERVERVIEW item="SelectedServer" parent="LoginFrame">
+		<BOUNDS>
+			<X>60</X>
+			<Y>83</Y>
+			<W>540</W>
+			<H>160</H>
+		</BOUNDS>
+	</SERVERVIEW>
+	
+<!-- Edit : 아이디 입력창 -->
+	<EDIT item="LoginID" parent="LoginFrame">
+		<BOUNDS>
+			<X>82</X>
+			<Y>149</Y>
+			<W>106</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>true</VISIBLE>
+	</EDIT>
+
+	<!-- Edit : 비밀번호 입력창 -->
+	<EDIT item="LoginPassword" parent="LoginFrame">
+		<PASSWORD>true</PASSWORD>
+		<BOUNDS>
+			<X>272</X>
+			<Y>149</Y>
+			<W>106</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>true</VISIBLE>
+	</EDIT>
+
+	<BUTTON item="RememberMe" parent="LoginFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>38</X>
+			<Y>192</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+		<ALIGN>LEFT</ALIGN>
+	</BUTTON>
+	<LABEL item="Label" parent="LoginFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>64</X>
+			<Y>194</Y>
+			<W>150</W>
+			<H>22</H>
+		</BOUNDS>
+		<TEXT>Remember Password</TEXT>
+	</LABEL>
+
+<!-- Label : 로그인 에러 -->
+	<LABEL item="LoginError" parent="LoginFrame">
+		<TEXTCOLOR>
+			<R>200</R>
+			<G>0</G>
+			<B>0</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>21</X>
+			<Y>209</Y>
+			<W>200</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	
+	
+	
+	<!--BUTTON item="LoginOK" parent="LoginFrame">
+		<BOUNDS>
+			<X>230</X>
+			<Y>175</Y>
+			<W>107</W>
+			<H>31</H>
+		</BOUNDS>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+		<FOCUSABLE>FALSE</FOCUSABLE>
+		<TEXT>LOGIN</TEXT>
+	</BUTTON-->
+	
+<!-- 버튼 -->
+	<!-- Button : 로그인 버튼 -->
+	<BMBUTTON item="LoginOK" parent="LoginFrame">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>260</X>
+			<Y>189</Y>
+			<W>105</W>
+			<H>31</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP type="up">LoginButton.png</BITMAP>
+		<BITMAP type="over">LoginButton_on.png</BITMAP>
+		<BITMAP type="down">LoginButton_on.png</BITMAP>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+		<FOCUSABLE>FALSE</FOCUSABLE>
+	</BMBUTTON>
+
+
+<!-- BUTTON : 종료 버튼 -->
+	<BMBUTTON item="Exit" parent="LoginFrame">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>350</X>
+			<Y>0</Y>
+			<W>40</W>
+			<H>41</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP type="up">loginClose.png</BITMAP>
+		<BITMAP type="over">loginClose_on.png</BITMAP>
+		<BITMAP type="down">loginClose_on.png</BITMAP>
+		<DEFAULTKEY>ESCAPE</DEFAULTKEY>
+		<CONFIRMMESSAGE>STR:UI_LOGIN_05</CONFIRMMESSAGE> <!-- Do you want to quit the game? -->
+		<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+		<FOCUSABLE>FALSE</FOCUSABLE>
+	</BMBUTTON>	
+
+	<BMBUTTON item="LobbyOptionFrame" parent="LoginFrame">
+		<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>305</X>
+			<Y>0</Y>
+			<W>40</W>
+			<H>41</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP type="up">loginOptions.png</BITMAP>
+		<BITMAP type="over">loginOptions_on.png</BITMAP>
+		<BITMAP type="down">loginOptions_on.png</BITMAP>
+		<TEXT></TEXT>
+	</BMBUTTON>
+	
+	
+<!-- 서버 IP 설정 -->
+	<!-- Label : 서버 IP -->
+	<!-- <LABEL item="LabelServerIP" parent="LoginFrame">
+		<BOUNDS>
+			<X>500</X>
+			<Y>202</Y>
+			<W>200</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT>Debug Server</TEXT>
+		<VISIBLE>false</VISIBLE>
+	</LABEL>-->
+
+	<!-- Edit : IP 주소 입력창 -->
+	<!-- <EDIT item="ServerAddress" parent="LoginFrame">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>500</X>
+			<Y>202</Y>
+			<W>110</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</EDIT>-->
+
+	<!-- Edit : IP 포트 입력창 -->
+	<!-- <EDIT item="ServerPort" parent="LoginFrame">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>500</X>
+			<Y>202</Y>
+			<W>45</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</EDIT>-->
+</XML>

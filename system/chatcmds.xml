@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<CMD id="1" name="STR:CMD_NAME_1" usage="STR:CMD_USAGE_1" help="STR:CMD_HELP_1">
+	  <ALIAS name="STR:CMD_ALIAS_1_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_1_2"/>
+	</CMD>
+	
+	<CMD id="2" name="STR:CMD_NAME_2" usage="STR:CMD_USAGE_2" help="STR:CMD_HELP_2">
+	  <ALIAS name="STR:CMD_ALIAS_2_1"/>	
+	  <ALIAS name="STR:CMD_ALIAS_2_2"/>	
+	</CMD>
+	
+	<CMD id="3" name="STR:CMD_NAME_3" usage="STR:CMD_USAGE_3" help="STR:CMD_HELP_3">
+	  <ALIAS name="STR:CMD_ALIAS_3_1"/>	
+	  <ALIAS name="STR:CMD_ALIAS_3_2"/>	
+	</CMD>
+
+	<CMD id="4" name="STR:CMD_NAME_4" usage="STR:CMD_USAGE_4" help="STR:CMD_HELP_4">
+	  <ALIAS name="STR:CMD_ALIAS_4_1"/>	
+	  <ALIAS name="STR:CMD_ALIAS_4_2"/>	
+	</CMD>
+
+	<CMD id="5" name="STR:CMD_NAME_5" usage="STR:CMD_USAGE_5" help="STR:CMD_HELP_5">
+	  <ALIAS name="STR:CMD_ALIAS_5_1"/>	
+	  <ALIAS name="STR:CMD_ALIAS_5_2"/>	
+	</CMD>
+
+	<CMD id="6" name="STR:CMD_NAME_6" usage="STR:CMD_USAGE_6" help="STR:CMD_HELP_6">
+	  <ALIAS name="STR:CMD_ALIAS_6_1"/>	
+	  <ALIAS name="STR:CMD_ALIAS_6_2"/>	
+	</CMD>	
+	
+	<CMD id="7" name="STR:CMD_NAME_7" usage="STR:CMD_USAGE_7" help="STR:CMD_HELP_7">
+	  <ALIAS name="STR:CMD_ALIAS_7_1"/>	
+	  <ALIAS name="STR:CMD_ALIAS_7_2"/>	
+	</CMD>	
+	
+	<CMD id="8" name="STR:CMD_NAME_8" usage="STR:CMD_USAGE_8" help="STR:CMD_HELP_8">
+	  <ALIAS name="STR:CMD_ALIAS_8_1"/>	
+	  <ALIAS name="STR:CMD_ALIAS_8_2"/>	
+	</CMD>		
+
+	<CMD id="15" name="STR:CMD_NAME_15" usage="STR:CMD_USAGE_15" help="STR:CMD_HELP_15">
+	  <ALIAS name="STR:CMD_ALIAS_15_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_15_2"/>
+	</CMD>
+
+	<CMD id="19" name="STR:CMD_NAME_19" usage="STR:CMD_USAGE_19" help="STR:CMD_HELP_19">
+	  <ALIAS name="STR:CMD_ALIAS_19_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_19_2"/>
+	</CMD>
+	
+	<CMD id="28" name="STR:CMD_NAME_28" usage="STR:CMD_USAGE_28" help="STR:CMD_HELP_28">
+	  <ALIAS name="STR:CMD_ALIAS_28_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_28_2"/>
+	</CMD>		
+	
+	<CMD id="29" name="STR:CMD_NAME_29" usage="STR:CMD_USAGE_29" help="STR:CMD_HELP_29">
+	  <ALIAS name="STR:CMD_ALIAS_29_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_29_2"/>
+	</CMD>	
+
+	<CMD id="30" name="STR:CMD_NAME_30" usage="STR:CMD_USAGE_30" help="STR:CMD_HELP_30">
+	  <ALIAS name="STR:CMD_ALIAS_30_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_30_2"/>
+	</CMD>	
+
+	<CMD id="31" name="STR:CMD_NAME_31" usage="STR:CMD_USAGE_31" help="STR:CMD_HELP_31">
+	  <ALIAS name="STR:CMD_ALIAS_31_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_31_2"/>
+	</CMD>	
+
+	<CMD id="32" name="STR:CMD_NAME_32" usage="STR:CMD_USAGE_32" help="STR:CMD_HELP_32">
+	  <ALIAS name="STR:CMD_ALIAS_32_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_32_2"/>
+	</CMD>	
+
+	<CMD id="33" name="STR:CMD_NAME_33" usage="STR:CMD_USAGE_33" help="STR:CMD_HELP_33">
+	  <ALIAS name="STR:CMD_ALIAS_33_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_33_2"/>
+	</CMD>	
+
+	<CMD id="34" name="STR:CMD_NAME_34" usage="STR:CMD_USAGE_34" help="STR:CMD_HELP_34">
+	  <ALIAS name="STR:CMD_ALIAS_34_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_34_2"/>
+	</CMD>	
+
+	<CMD id="35" name="STR:CMD_NAME_35" usage="STR:CMD_USAGE_35" help="STR:CMD_HELP_35">
+	  <ALIAS name="STR:CMD_ALIAS_35_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_35_2"/>
+	</CMD>	
+
+	<CMD id="36" name="STR:CMD_NAME_36" usage="STR:CMD_USAGE_36" help="STR:CMD_HELP_36">
+	  <ALIAS name="STR:CMD_ALIAS_36_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_36_2"/>
+	</CMD>	
+
+	<CMD id="37" name="STR:CMD_NAME_37" usage="STR:CMD_USAGE_37" help="STR:CMD_HELP_37">
+	  <ALIAS name="STR:CMD_ALIAS_37_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_37_2"/>
+	</CMD>	
+
+	<CMD id="38" name="STR:CMD_NAME_38" usage="STR:CMD_USAGE_38" help="STR:CMD_HELP_38">
+	  <ALIAS name="STR:CMD_ALIAS_38_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_38_2"/>
+	</CMD>		
+	
+	<CMD id="39" name="STR:CMD_NAME_39" usage="STR:CMD_USAGE_39" help="STR:CMD_HELP_39">
+	  <ALIAS name="STR:CMD_ALIAS_39_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_39_2"/>
+	</CMD>		
+
+	<CMD id="40" name="STR:CMD_NAME_40" usage="STR:CMD_USAGE_40" help="STR:CMD_HELP_40">
+	  <ALIAS name="STR:CMD_ALIAS_40_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_40_2"/>
+	</CMD>	
+
+	<CMD id="41" name="STR:CMD_NAME_41" usage="STR:CMD_USAGE_41" help="STR:CMD_HELP_41">
+	  <ALIAS name="STR:CMD_ALIAS_41_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_41_2"/>
+	</CMD>	
+
+	<CMD id="42" name="STR:CMD_NAME_42" usage="STR:CMD_USAGE_42" help="STR:CMD_HELP_42">
+	  <ALIAS name="STR:CMD_ALIAS_42_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_42_2"/>
+	</CMD>	
+
+	<CMD id="43" name="STR:CMD_NAME_43" usage="STR:CMD_USAGE_43" help="STR:CMD_HELP_43">
+	  <ALIAS name="STR:CMD_ALIAS_43_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_43_2"/>
+	</CMD>	
+
+	<CMD id="44" name="STR:CMD_NAME_44" usage="STR:CMD_USAGE_44" help="STR:CMD_HELP_44">
+	  <ALIAS name="STR:CMD_ALIAS_44_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_44_2"/>
+	</CMD>	
+
+	<CMD id="45" name="STR:CMD_NAME_45" usage="STR:CMD_USAGE_45" help="STR:CMD_HELP_45">
+	  <ALIAS name="STR:CMD_ALIAS_45_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_45_2"/>
+	</CMD>	
+
+	<CMD id="46" name="STR:CMD_NAME_46" usage="STR:CMD_USAGE_46" help="STR:CMD_HELP_46">
+	  <ALIAS name="STR:CMD_ALIAS_46_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_46_2"/>
+	</CMD>
+
+	<CMD id="47" name="STR:CMD_NAME_47" usage="STR:CMD_USAGE_47" help="STR:CMD_HELP_47">
+	  <ALIAS name="STR:CMD_ALIAS_47_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_47_2"/>
+	</CMD>
+
+	<CMD id="48" name="STR:CMD_NAME_48" usage="STR:CMD_USAGE_48" help="STR:CMD_HELP_48">
+	  <ALIAS name="STR:CMD_ALIAS_48_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_48_2"/>
+	</CMD>
+
+	<CMD id="49" name="STR:CMD_NAME_49" usage="STR:CMD_USAGE_49" help="STR:CMD_HELP_49">
+	  <ALIAS name="STR:CMD_ALIAS_49_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_49_2"/>
+	</CMD>
+
+	<CMD id="50" name="STR:CMD_NAME_50" usage="STR:CMD_USAGE_50" help="STR:CMD_HELP_50">
+	  <ALIAS name="STR:CMD_ALIAS_50_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_50_2"/>
+	</CMD>	
+	
+	<CMD id="51" name="STR:CMD_NAME_51" usage="STR:CMD_USAGE_51" help="STR:CMD_HELP_51">
+	  <ALIAS name="STR:CMD_ALIAS_51_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_51_2"/>
+	</CMD>	
+
+	<CMD id="52" name="STR:CMD_NAME_52" usage="STR:CMD_USAGE_52" help="STR:CMD_HELP_52">
+	  <ALIAS name="STR:CMD_ALIAS_52_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_52_2"/>
+	</CMD>	
+
+	<CMD id="53" name="STR:CMD_NAME_53" usage="STR:CMD_USAGE_53" help="STR:CMD_HELP_53">
+	  <ALIAS name="STR:CMD_ALIAS_53_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_53_2"/>
+	</CMD>	
+
+	<CMD id="54" name="STR:CMD_NAME_54" usage="STR:CMD_USAGE_54" help="STR:CMD_HELP_54">
+	  <ALIAS name="STR:CMD_ALIAS_54_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_54_2"/>
+	</CMD>	
+
+	<CMD id="55" name="STR:CMD_NAME_55" usage="STR:CMD_USAGE_55" help="STR:CMD_HELP_55">
+	  <ALIAS name="STR:CMD_ALIAS_55_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_55_2"/>
+	</CMD>	
+
+	<CMD id="56" name="STR:CMD_NAME_56" usage="STR:CMD_USAGE_56" help="STR:CMD_HELP_56">
+	  <ALIAS name="STR:CMD_ALIAS_56_1"/>
+	  <ALIAS name="STR:CMD_ALIAS_56_2"/>
+	</CMD>		
+</XML>
